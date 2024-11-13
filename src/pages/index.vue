@@ -1,5 +1,9 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+  import { usePageStore } from '@/stores/page'
+
+  usePageStore().pageData.title = 'Home'
+</script>
 
 <template>
-  <HelloWorld />
+  <h1>Home</h1>
 </template>
