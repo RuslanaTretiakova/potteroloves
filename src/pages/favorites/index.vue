@@ -1,9 +1,11 @@
 <script lang="ts">
-  import { usePageStore } from '@/stores/page'
+  import { usePageStore } from '@/stores/PageStore'
 
   usePageStore().pageData.title = 'Favorites'
 </script>
 
 <template>
-  <h1>Favorites</h1>
+  <v-container>
+    <h1>Hello from</h1>
+  </v-container>
 </template>
