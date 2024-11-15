@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <HomeLayout>
+  <AuthLayout>
     <router-view />
-  </HomeLayout>
+  </AuthLayout>
 </template>
