@@ -8,14 +8,11 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AuthLayout: typeof import('./components/layouts/main/AuthLayout.vue')['default']
-    HomeLayout: typeof import('./components/layouts/main/HomeLayout.vue')['default']
-    Logo: typeof import('./components/ui/Logo.vue')['default']
-    Navigation: typeof import('./components/layouts/main/Navigation.vue')['default']
+    Footer: typeof import('./components/ui/Footer.vue')['default']
+    Navigation: typeof import('./components/layouts/Navigation.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    SideBar: typeof import('./components/layouts/main/SideBar.vue')['default']
-    SideBarLinks: typeof import('./components/layouts/main/SideBarLinks.vue')['default']
-    SideBarNavigation: typeof import('./components/layouts/main/SideBarNavigation.vue')['default']
+    SideBarLinks: typeof import('./components/layouts/SideBarLinks.vue')['default']
     Theme: typeof import('./components/ui/Theme.vue')['default']
     TopNavbar: typeof import('./components/layouts/TopNavbar.vue')['default']
   }

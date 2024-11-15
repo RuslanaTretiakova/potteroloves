@@ -11,12 +11,11 @@
 </script>
 
 <template>
-  <RouterLink
+  <v-list-item
     v-for="link in links"
     :key="link.title"
-    :icon="link.icon"
+    :prepend-icon="link.icon"
     :to="link.to"
   >
-    <v-list-item>{{ link.title }}</v-list-item>
-  </RouterLink>
+    {{ link.title }}</v-list-item>
 </template>
